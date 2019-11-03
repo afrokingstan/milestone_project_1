@@ -1,47 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /*---------------------Colours*/
-.bg-header-color{
-    background-color: #ffffff;
-}
-.logo-text-color {
-    color: #182D4E;
+
+.navbar a
+{
+        color: #182D4E;
+        font-weight: bolder;
 }
 
-.btn-enquiry-color {
-    background-color: #182D4E;
-    border-color: #182D4E;
+.navbar a:hover {
+        color: #17a2b8;
 }
 
-.btn-enquiry-color:hover {
-    background-color: #424242;
+.fa-bars {
+   color: #182D4E;
 }
+
 
 /*---------------------Heading*/
 header {
     margin: 0;
-    padding: 20px 16px 20px 16px;
-    
     font-family: "Exo", sans-serif;
 }
 
-.logo {
-    /*background: url("../images/rosie.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    min-height: 50px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    text-decoration: none;
-    
-    font-weight: 100 bold;
-    font-size: 30px;
-}
-.logo:hover {
-   
-    text-decoration: none;
-}
+
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -53,4 +34,67 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+    
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252; 
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #182D4E;
+}
+
+#footer-details {
+    padding: 20px;
+}
+.fa-color {
+    color: #8f8f8f;
+}
+/* ----------------------------------------Special characters */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
 }
