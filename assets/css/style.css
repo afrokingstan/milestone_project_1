@@ -1,32 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /*---------------------Colours*/
 
-.navbar a
-{
-        color: #182D4E;
-        font-weight: bolder;
+.navbar a {
+    color: #182D4E;
+
 }
 
 .navbar a:hover {
-        color: #17a2b8;
+    color: #17a2b8;
 }
 
 .fa-bars {
-   color: #182D4E;
+    color: #182D4E;
 }
 
+.btn-color {
+    color: #182D4E;
+    border-radius: 8%;
+}
 
 /*---------------------Heading*/
+
 header {
     margin: 0;
     font-family: "Exo", sans-serif;
 }
 
+.navbar a {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+
 .menucontainer {
     font-size: 0;
 }
@@ -34,14 +43,14 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
-    
+
 }
 
 
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252; 
+    background-color: #182D4E;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -59,33 +68,51 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
+    /*#fafafa #8f8f8f*/
     color: #fafafa;
-    background: #8f8f8f;
+    background: #182D4E;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
 }
 
 .social-links li a i:hover {
-    background: #182D4E;
+    background: #8f8f8f;
 }
 
 #footer-details {
     padding: 20px;
 }
+
 .fa-color {
+    color: #ffffff;
+}
+
+.general-sub a:hover, .general-sub i:hover{
     color: #8f8f8f;
 }
 /* ----------------------------------------Special characters */
+
 .uppercase {
     text-transform: uppercase;
+
 }
+
 
 .general-sub {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+    font-weight: 50;
+
+
+}
+
+.general-sub a {
+    text-decoration: none;
+    color: #ffffff;
+
+
 }
 
 .inline-block {
@@ -98,3 +125,41 @@ h3,
 h4 {
     margin: 0;
 }
+
+
+/* ----------------------------------------section*/
+
+.feature-card {
+    background-color: #182D4E;
+    color: #ffffff;
+    
+}
+
+.img-container {
+    background: url("../images/home-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding-top: 100px;
+}
+
+.fa-news-icon {
+    color: #182D4E;
+    margin-left: 5px;
+  
+}
+
+@media only screen and (min-width: 600px) {
+ .card-space {
+    
+    margin-right: 20px;
+    
+  
+}
+}
+
+
