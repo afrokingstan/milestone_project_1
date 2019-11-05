@@ -1,14 +1,13 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# First Milestone Project
 
+Welcome!
 
-Hi there! Welcome to AWS Cloud9!
+## Technologies used in this project
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+### Adobe XD, Html, CSS, AWS Cloud 9, git, github, Fontawesome, Googlefonts, Bootstrap and hard work :)
 
-Happy coding!
+#### Project description
+
+##### This project is intended to provide a mobile first user experience design for an accounting firm.
+
+###### this project is still in progress and i am working towards my deadline.

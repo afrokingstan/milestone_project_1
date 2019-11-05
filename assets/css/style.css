@@ -103,7 +103,7 @@ footer {
 
 .general-sub {
     font-family: "Exo", sans-serif;
-    font-weight: 50;
+    font-weight: lighter;
 
 
 }
@@ -157,6 +157,15 @@ h4 {
  .card-space {
     
     margin-right: 20px;
+    
+  
+}
+}
+
+@media only screen and (max-width: 600px) {
+ .card-space, .sm-margin {
+    
+    margin-left: 5px;
     
   
 }
