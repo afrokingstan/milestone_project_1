@@ -134,7 +134,7 @@ h4 {
 
 .fa-news-icon {
     color: #182D4E;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 
 }
 
@@ -206,4 +206,14 @@ footer {
 
 
     }
+      .col-show-hide {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .col-resize {
+        width: 480px;
+    }
+    
 }
+
