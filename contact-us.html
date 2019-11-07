@@ -60,77 +60,83 @@
 
   </header>
 
-  <section class="bg-color no-gutters">
+  <section class="bg-color">
     <div class="container">
 
-      <div class="row col-resize justify-content-center">
-        <div class="col-8">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="card">
+            <h5 class="card-header text-center" style="color: #182D4E; border: 0;">Contact Us</h5>
+            <div class="card-body feature-card">
 
-          <h5 class="card-header text-center" style="color: #ffffff; background: #182D4E;">Contact Us</h5>
-
-
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name Or Business Name">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput2">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Select Location</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name Or Business Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput2">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Select Location</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
       <option>North East</option>
       <option>North West</option>
       <option>West Yorkshire</option>
       <option>Central London</option>
       <option>South London</option>
     </select>
-            </div>
-            <div class="form-group">
-              <div>
-                <label for="exampleFormControlSelect2">Select Type of Service Required</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Personal</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Business</label>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-          </form>
-
-
-        </div>
-        <div class="col-4 col-show-hide">
-          <div class="card">
-            <h5 class="card-header text-center" style="color: #182D4E;">Our Locations</h5>
-            <div class="card-body feature-card">
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.721782903889!2d-1.5497696845958542!3d53.794439148754115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1eff3d8515%3A0x2af58969cc8b47bf!2sLeeds%20Train%20Station%2C%20New%20Station%20St%2C%20Leeds%20LS1%204DY!5e0!3m2!1sen!2suk!4v1573146295338!5m2!1sen!2suk"
-                width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-              <div class="card" style="color: #182D4E;">
-                <div class="card-body">
-                  <h5 class="card-title">West Yorkshire</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
-                  <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
-
                 </div>
+                <div class="form-group">
+                  <div>
+                    <label for="exampleFormControlSelect2">Select Type of Service Required</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Personal</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Business</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Your Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <p class="show-hide-btn">
+          <a class="btn btn-outline-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    View all our Locations
+  </a>
+         
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+
+            <h5 class="card-header text-center" style="color: #182D4E;">Our Locations</h5>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.721782903889!2d-1.5497696845958542!3d53.794439148754115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1eff3d8515%3A0x2af58969cc8b47bf!2sLeeds%20Train%20Station%2C%20New%20Station%20St%2C%20Leeds%20LS1%204DY!5e0!3m2!1sen!2suk!4v1573146295338!5m2!1sen!2suk"
+              width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+            <div class="card" style="color: #182D4E;">
+              <div class="card-body">
+                <h5 class="card-title">West Yorkshire</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
+                <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
+
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
-    </div>
   </section>
 
   <footer class="container-fluid sm-margin footer-bg-color">

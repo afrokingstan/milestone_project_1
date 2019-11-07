@@ -204,16 +204,13 @@ footer {
 
         margin-left: 2px;
 
-
     }
-      .col-show-hide {
+}
+
+@media (max-width: 995px) {
+    .show-hide-btn {
         visibility: hidden;
         width: 0;
         height: 0;
     }
-    .col-resize {
-        width: 480px;
-    }
-    
 }
-
