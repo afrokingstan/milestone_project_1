@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url("hover-min.css");
+/*---------------------Hover*/
+.hvr-bounce-to-top:before {
+    background-color: rgba(24, 45, 78, 0.24);
+    
+}
+
+
 /*---------------------Colours*/
 
 .navbar a {
@@ -7,7 +15,7 @@
 }
 
 .navbar a:hover {
-    color: #17a2b8;
+    color: rgba(11, 20, 35, 0.57);
 }
 
 .fa-bars {
@@ -17,6 +25,30 @@
 .btn-color {
     color: #182D4E;
     border-radius: 8%;
+}
+.btn{
+    margin-left: 20px;
+}
+
+.bg-color,
+#active-item {
+    background-color: #182D4E;
+    color: #ffffff;
+}
+
+.footer-bg-color {
+    background-color: rgba(24, 45, 78, 0.24);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+.footer-text, .footer-text a {
+    text-decoration: none;
+    color: #182D4E;
+}
+.footer-text a:hover {
+    
+    color: #fff;
 }
 
 /*---------------------Heading*/
@@ -43,6 +75,66 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+
+}
+
+/* ----------------------------------------Special characters */
+
+.uppercase {
+    text-transform: uppercase;
+
+}
+
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: lighter;
+
+
+}
+
+.general-sub a {
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+
+/* ----------------------------------------section*/
+
+.feature-card {
+    background-color: #182D4E;
+    color: #ffffff;
+
+}
+
+.img-container {
+    background: url("../images/home-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding-top: 100px;
+}
+
+.fa-news-icon {
+    color: #182D4E;
+    margin-left: 5px;
 
 }
 
@@ -90,85 +182,28 @@ footer {
     color: #ffffff;
 }
 
-.general-sub a:hover, .general-sub i:hover{
+.general-sub a:hover,
+.general-sub i:hover {
     color: #8f8f8f;
 }
-/* ----------------------------------------Special characters */
 
-.uppercase {
-    text-transform: uppercase;
 
+
+/*------------------------------meadia*/
+
+@media (min-width: 575.98px) {
+    .card-space {
+
+        margin-right: 20px;
+    }
 }
 
+@media (max-width: 575.98px) {
+    .card-space,
+    .sm-margin {
 
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: lighter;
+        margin-left: 2px;
 
 
+    }
 }
-
-.general-sub a {
-    text-decoration: none;
-    color: #ffffff;
-
-
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-
-/* ----------------------------------------section*/
-
-.feature-card {
-    background-color: #182D4E;
-    color: #ffffff;
-    
-}
-
-.img-container {
-    background: url("../images/home-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 260px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    padding-top: 100px;
-}
-
-.fa-news-icon {
-    color: #182D4E;
-    margin-left: 5px;
-  
-}
-
-@media only screen and (min-width: 600px) {
- .card-space {
-    
-    margin-right: 20px;
-    
-  
-}
-}
-
-@media only screen and (max-width: 600px) {
- .card-space, .sm-margin {
-    
-    margin-left: 5px;
-    
-  
-}
-}
-
-

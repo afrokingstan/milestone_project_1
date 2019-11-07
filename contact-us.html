@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+  <script src="https://use.fontawesome.com/7ebbc22a87.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Eli Accountants</title>
 </head>
@@ -27,62 +27,101 @@
       <div class="navbar-collapse justify-content-end collapse" id="collapsibleNavbar" style="">
         <ul class="navbar-nav nav-tabs">
           <li class="nav-item ">
-            <a class="nav-link active" style="background-color:#182D4E; color: #ffffff;" href="#">Home</a>
+            <a class="nav-link hvr-bounce-to-top" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Location</a>
+            <a class="nav-link hvr-bounce-to-top" href="#">Location</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link hvr-bounce-to-top" href="#">About Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+            <a class="nav-link dropdown-toggle hvr-bounce-to-top" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item hvr-bounce-to-top" href="#">Action</a>
+              <a class="dropdown-item hvr-bounce-to-top" href="#">Another action</a>
+              <a class="dropdown-item hvr-bounce-to-top" href="#">Something else here</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
+              <a class="dropdown-item hvr-bounce-to-top" href="#">Separated link</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link active" id="active-item" href="#">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link hvr-bounce-to-top" href="#">News</a>
           </li>
         </ul>
         <div class="d-none d-md-block">
 
-          <button class="btn-color" href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Your Enquiry</button></div>
+          <button class="btn btn-primary hvr-pop" href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Your Enquiry</button></div>
       </div>
     </nav>
 
   </header>
-  <section>
-
+  
+  <section class="bg-color">
+    <div class="container">
+  <div class="row">
+    <div class="col-8">
+      <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+    </div>
+    <div class="col-4 col-show-hide">
+      2 of 2
+    </div>
+  </div>
+  </div>
   </section>
-  <footer class="container-fluid">
+
+  <footer class="container-fluid sm-margin footer-bg-color">
     <div id="footer-details" class="row">
-      <div class="col-sm-3">
-        <h5 class="uppercase general-sub"><a href="#">
-                        <i class="fa fa-paper-plane fa-color" aria-hidden="true"></i>
+      <div class="col-sm-3 ">
+        <h5 class="uppercase footer-text"><a href="#">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
                         <span class="sr-only">Mailing List</span>
                     Join Our Mailing List</a>
         </h5>
 
       </div>
       <div class="col-sm-3">
-        <h5 class="uppercase general-sub"><a href="#">
-              <i class="fa fa-map-marker fa-color" aria-hidden="true"></i>
+        <h5 class="uppercase footer-text"><a href="#">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
               <span class="sr-only">Location</span>
                     Find Us</a>
         </h5>
       </div>
       <div class="col-sm-3">
-        <h5 class="uppercase general-sub">
-          <a href="#"> 
-                        <i class="fa fa-shield fa-color" aria-hidden="true"></i>
+        <h5 class="uppercase footer-text"><a href="#"> 
+                        <i class="fa fa-shield" aria-hidden="true"></i>
                         <span class="sr-only">Privacy Notice</span>
                     Our Privacy Notice
                     </a>
@@ -90,7 +129,7 @@
 
       </div>
       <div class="col-sm-3">
-        <h5 class="uppercase general-sub">Join the conversation</h5>
+        <h5 class="uppercase footer-text">Join the conversation</h5>
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a target="_blank" href="#">
