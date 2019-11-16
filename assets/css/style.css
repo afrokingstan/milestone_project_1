@@ -204,6 +204,7 @@ footer {
 
         margin-right: 20px;
     }
+   
 }
 
 @media (max-width: 575.98px) {
@@ -213,6 +214,18 @@ footer {
         margin-left: 2px;
 
     }
+     
 }
 
 
+
+
+/*------------------------------services*/
+.fa-services-icons {
+    height: 20%;
+    padding-top: 2%;
+}
+.card-deck {
+        
+        width: 100%;
+    }
