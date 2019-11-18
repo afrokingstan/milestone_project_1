@@ -61,6 +61,19 @@ header {
 .navbar a {
     font-weight: bolder;
     text-transform: uppercase;
+    
+}
+
+.enq-btn a {
+   color:#ffffff; 
+   text-transform: none; 
+   font-weight: normal;
+}
+
+.enq-btn a:hover {
+   color: #FDFFFF; 
+   text-transform: none; 
+   font-weight: normal;
 }
 
 
