@@ -151,7 +151,6 @@ h4 {
 
 .fa-news-icon {
     color: #182D4E;
-    /*margin-left: 5px;*/
 
 }
 
@@ -185,7 +184,6 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    /*#fafafa #8f8f8f*/
     color: #fafafa;
     background: #182D4E;
     transition: all 0.35s ease-in-out;
@@ -240,7 +238,7 @@ footer {
 
 /*------------------------------services*/
 .fa-services-icons {
-    height: 20%;
+    height: 120px;
     padding-top: 2%;
 }
 .card-deck {
