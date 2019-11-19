@@ -245,3 +245,15 @@ footer {
         
         width: 100%;
     }
+    
+/*------------------------------about-us*/  
+.fa-aboutus-icons {
+    height: 200px;
+}
+.team-card {
+    color: #182D4E; 
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
