@@ -55,17 +55,17 @@ The special features included are :
 3.  CSS
 4.  AWS Cloud 9 
 5.  git / github
-6. Fontawesome 
-7. Google fonts
-8. Bootstrap 4.0
-9. Hover.CSS
-10. Google Chrome
-11. Hexolortool
-12. W3schools
-13. Visual Studio Code
-14. Pixabay
+6. [Fontawesome](https://fontawesome.com/) 
+7. [Google fonts](https://fonts.google.com/)
+8. [Bootstrap 4.0](https://getbootstrap.com/)
+9. [Hover.CSS](https://ianlunn.github.io/Hover/)
+10. [Google Chrome Browser](https://www.google.co.uk/chrome/?brand=CHBD&gclid=CjwKCAiAws7uBRAkEiwAMlbZjq5bCmiXgWbsFfZ75RbP6VipacASJV-W5_YXyf16cIXn4m_VCCGHBBoCvcoQAvD_BwE&gclsrc=aw.ds)
+11. [Hexcolortool](https://www.hexcolortool.com/)
+12. [W3schools](https://www.w3schools.com/)
+13. [Visual Studio Code](https://code.visualstudio.com/)
+14. [Pixabay](https://pixabay.com/)
 
-## Wire Frames
+### Wire Frames
 Adobe XD was used to create the wireframes (find them in the wireframes folder). Here I created one view for the mobile phones and another for desktop view. I found that the choice of colour for similar firms was simply 2 - 3 colour combination and they were white, grey and black or a shade close to black. I setteled for a proffesional colour combination of white, grey and dark blue. I didnt include an image gallery as this feature was not popular on similar sites.
 
 
@@ -73,11 +73,12 @@ Adobe XD was used to create the wireframes (find them in the wireframes folder).
 
 
 ## User Experience
-Here's some of the new experience
+Here's some of the user experience
 I like the colours on the website its not distracting it makes it look very professional.
 
 I like that I can see google maps and use the get directions button and it takes me straight to google maps.
 
 I like that contact  us page allows me to see the Head office address right next to the form this way i can use it as a referrence if needed.
 
-i like the fonts used as they are sharp.
+I like the fonts used as they are sharp.
+

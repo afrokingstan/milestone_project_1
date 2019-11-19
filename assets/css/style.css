@@ -64,6 +64,10 @@ header {
     
 }
 
+.navbar-brand {
+    margin-right: auto;
+}
+
 .enq-btn a {
    color:#ffffff; 
    text-transform: none; 
