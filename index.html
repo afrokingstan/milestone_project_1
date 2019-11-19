@@ -69,75 +69,76 @@
         <div class="navbar-collapse collapse" id="collapsibleform">
           <div class="container">
 
-            <div class="row mx-auto" style="width: 100%;">
-              <div class="col-md-9">
-                <div class="card">
-                  <h5 class="card-header text-center" style="color: #182D4E; border: 0;">Contact Us</h5>
-                  <div class="card-body feature-card">
+      <div class="row mx-auto" style="width: 100%;">
+        <div class="col-md-9">
+          <div class="card">
+            <h5 class="card-header text-center" style="color: #182D4E; border: 0;">Contact Us</h5>
+            <div class="card-body feature-card">
 
-                    <form>
-                      <div class="form-group">
-                        <label for="validationDefault01">Name</label>
-                        <input type="name" class="form-control" id="validationDefault01" placeholder="Name Or Business Name" required>
+              <form>
+                <div class="form-group">
+                  <label for="validationDefault01">Name</label>
+                  <input type=text class="form-control" id="validationDefault01" placeholder="Name Or Business Name" required>
 
-                      </div>
-                      <div class="form-group">
-                        <label for="validationDefault02">Email address</label>
-                        <input type="email" class="form-control" id="validationDefault02" placeholder="name@example.com" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="validationDefault03">Select Location</label>
-                        <select class="form-control" id="validationDefault03" required>
-       <option></option>             
-      <option>North East</option>
-      <option>North West</option>
-      <option>West Yorkshire</option>
-      <option>Central London</option>
-      <option>South London</option>
+                </div>
+                <div class="form-group">
+                  <label for="validationDefault02">Email address</label>
+                  <input type="email" class="form-control" id="validationDefault02" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="validationDefault01">Contact Number</label>
+                  <input type="tel" class="form-control" id="validationDefault03" placeholder="Telephone Number" required>
+
+                </div>
+                <div class="form-group">
+                  <label for="validationDefault04">Select Location</label>
+                  <select class="form-control" id="validationDefault04" required>
+      <option value="">North East</option>
+      <option value="North West">North West</option>
+      <option value="West Yorkshire" selected>West Yorkshire</option>
+      <option value="Central London">Central London</option>
+      <option value="South London">South London</option>
     </select>
-                      </div>
-                      <div class="form-group">
-                        <div>
-                          <label for="validationDefault04">Select Type of Service Required</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
-                          <label class="form-check-label" for="inlineRadio1">Personal</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
-                          <label class="form-check-label" for="inlineRadio2">Business</label>
-                          <div class="invalid-feedback">
-                            You Must Select One.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="validationDefault05">Your Message</label>
-                        <textarea class="form-control" id="validationDefault05" rows="3" required></textarea>
-                      </div>
-                      <div class="form-row align-items-center">
-                        <div class="col-auto mx-auto">
-                          <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                      </div>
-                    </form>
+                </div>
+                <div class="form-group">
+                  <div>
+                    <label>Select Type of Service Required</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                    <label class="form-check-label" for="inlineRadio1">Personal</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+                    <label class="form-check-label" for="inlineRadio2">Business</label>
                   </div>
                 </div>
-              </div>
-              <div class="card col-md-3" style="color: #182D4E; height: 30%; width:100%">
-                <div class="card-body">
-                  <h5 class="card-title">Head Office</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
-                  <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
-                  <p class="card-text">Tel: 012345678 <br>email: eliaccountants@email.com</p>
-                  <p class="card-text">Opening Hours:<br>Monday - Friday<br> 8am - 5pm.</p>
+                <div class="form-group">
+                  <label for="validationDefault05">Your Message</label>
+                  <textarea class="form-control" id="validationDefault05" rows="3" required></textarea>
                 </div>
-              </div>
-
-
+                <div class="form-row align-items-center">
+                  <div class="col-auto mx-auto">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
+        </div>
+        <div class="card col-md-3" style="color: #182D4E; height: 30%; width:100%">
+          <div class="card-body">
+            <h5 class="card-title">Head Office</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
+            <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
+            <p class="card-text">Tel: 012345678 <br>email: eliaccountants@email.com</p>
+            <p class="card-text">Opening Hours:<br>Monday - Friday<br> 8am - 5pm.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
           <div class="d-none d-md-block enq-btn">
 
             <a class="btn btn-primary hvr-pop " href="contact-us.html"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Your Enquiry</a>
