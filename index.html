@@ -35,16 +35,20 @@
 
 <body>
   <header>
+<!-- NavBar -->
+
     <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="index.html">Eli Accountants</a>
+
+<!-- Toggle Button for small and medium screens-->
   <button class="navbar-toggler hvr-pop" type="button" data-toggle="collapse" data-target="#collapsibleform" aria-expanded="false">
    <span class="navbar-toggler-icon"><i class="fa fa-envelope" aria-hidden="true" style="color: #182D4E;"></i></span>
   </button>
-
-
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
-   <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
   </button>
+<!-- Toggle Button for small and medium screens-->
+<!-- Toggle Menu for small and medium screens and Menu for Large screens-->
       <div class="navbar-collapse justify-content-end collapse" id="collapsibleNavbar">
         <ul class="navbar-nav nav-tabs">
           <li class="nav-item ">
@@ -81,91 +85,97 @@
           <a class="btn btn-primary hvr-pop " href="contact-us.html"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Your Enquiry</a>
         </div>
       </div>
+      <!-- End of Toggle Menu for small and medium screens and Menu for Large screens-->
+
+<!-- Toggle contact form small and medium screens -->
       <div class="d-sm-block d-xl-none d-lg-none d-md-none">
         <div class="navbar-collapse collapse" id="collapsibleform">
           <div class="container">
 
-      <div class="row mx-auto" style="width: 100%;">
-        <div class="col-md-9">
-          <div class="card">
-            <h5 class="card-header text-center" style="color: #182D4E; border: 0;">Contact Us</h5>
-            <div class="card-body feature-card">
+            <div class="row mx-auto" style="width: 100%;">
+              <div class="col-md-9">
+                <div class="card">
+                  <h5 class="card-header text-center" style="color: #182D4E; border: 0;">Contact Us</h5>
+                  <div class="card-body feature-card">
 
-              <form>
-                <div class="form-group">
-                  <label for="validationDefault01">Name</label>
-                  <input type=text class="form-control" id="validationDefault01" placeholder="Name Or Business Name" required>
+                    <form>
+                      <div class="form-group">
+                        <label for="validationDefault01">Name</label>
+                        <input type=text class="form-control" id="validationDefault01" placeholder="Name Or Business Name" required>
 
-                </div>
-                <div class="form-group">
-                  <label for="validationDefault02">Email address</label>
-                  <input type="email" class="form-control" id="validationDefault02" placeholder="name@example.com" required>
-                </div>
-                <div class="form-group">
-                  <label for="validationDefault01">Contact Number</label>
-                  <input type="tel" class="form-control" id="validationDefault03" placeholder="Telephone Number" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="validationDefault02">Email address</label>
+                        <input type="email" class="form-control" id="validationDefault02" placeholder="name@example.com" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="validationDefault01">Contact Number</label>
+                        <input type="tel" class="form-control" id="validationDefault03" placeholder="Telephone Number" required>
 
-                </div>
-                <div class="form-group">
-                  <label for="validationDefault04">Select Location</label>
-                  <select class="form-control" id="validationDefault04" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="validationDefault04">Select Location</label>
+                        <select class="form-control" id="validationDefault04" required>
       <option value="">North East</option>
       <option value="North West">North West</option>
       <option value="West Yorkshire" selected>West Yorkshire</option>
       <option value="Central London">Central London</option>
       <option value="South London">South London</option>
     </select>
-                </div>
-                <div class="form-group">
-                  <div>
-                    <label>Select Type of Service Required</label>
+                      </div>
+                      <div class="form-group">
+                        <div>
+                          <label>Select Type of Service Required</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                          <label class="form-check-label" for="inlineRadio1">Personal</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+                          <label class="form-check-label" for="inlineRadio2">Business</label>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="validationDefault05">Your Message</label>
+                        <textarea class="form-control" id="validationDefault05" rows="3" required></textarea>
+                      </div>
+                      <div class="form-row align-items-center">
+                        <div class="col-auto mx-auto">
+                          <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
-                    <label class="form-check-label" for="inlineRadio1">Personal</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
-                    <label class="form-check-label" for="inlineRadio2">Business</label>
-                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="validationDefault05">Your Message</label>
-                  <textarea class="form-control" id="validationDefault05" rows="3" required></textarea>
+              </div>
+              <div class="card col-md-3" style="color: #182D4E; height: 30%; width:100%">
+                <div class="card-body">
+                  <h5 class="card-title">Head Office</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
+                  <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
+                  <p class="card-text">Tel: 012345678 <br>email: eliaccountants@email.com</p>
+                  <p class="card-text">Opening Hours:<br>Monday - Friday<br> 8am - 5pm.</p>
                 </div>
-                <div class="form-row align-items-center">
-                  <div class="col-auto mx-auto">
-                    <button class="btn btn-primary" type="submit">Submit form</button>
-                  </div>
-                </div>
-              </form>
+              </div>
+
+
             </div>
           </div>
-        </div>
-        <div class="card col-md-3" style="color: #182D4E; height: 30%; width:100%">
-          <div class="card-body">
-            <h5 class="card-title">Head Office</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Leeds</h6>
-            <p class="card-text">Station Road</p>New Station St<br>Leeds LS1 4DY
-            <p class="card-text">Tel: 012345678 <br>email: eliaccountants@email.com</p>
-            <p class="card-text">Opening Hours:<br>Monday - Friday<br> 8am - 5pm.</p>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
           <div class="d-none d-md-block enq-btn">
 
             <a class="btn btn-primary hvr-pop " href="contact-us.html"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Your Enquiry</a>
           </div>
         </div>
       </div>
+<!-- Toggle contact form small and medium screens -->
     </nav>
-
+    
+<!-- End of NavBar -->
   </header>
-
+<!-- home page Content -->
   <section class="sm-margin no-gutters">
+<!-- Featured Service -->    
     <div class="card text-center">
       <h5 class="card-header">Featured</h5>
       <div class="card-body feature-card">
@@ -174,7 +184,9 @@
         <a href="services.html" class="btn btn-primary hvr-pop">Learn More</a>
       </div>
     </div>
+<!-- End of Featured Service -->       
     <div class="row no-gutters">
+<!-- Featured News -->         
       <div class="col card-group container-fluid img-container">
         <div class="card mb-3 card-space" style="max-width: 500px;">
           <div class="row no-gutters">
@@ -219,9 +231,10 @@
           </div>
         </div>
       </div>
+<!-- End of Featured News -->   
     </div>
   </section>
-
+<!-- End of home page Content -->
 <!-- Footer -->
 
   <footer class="container-fluid sm-margin">
